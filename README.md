@@ -7,14 +7,9 @@ Analyzed Jira issue data from open-source Apache projects to evaluate:
 - 🐞 Bottlenecks by issue status, type, and priority
 
 ## Key Insights
-- Certain team members were overloaded with 10x more issues than others.
-- Some high-priority bugs took longer to resolve than medium-priority ones.
-- Sprint velocity fluctuated heavily around deadlines.
-
-## Tech Stack
-- Python (Pandas, Matplotlib, Seaborn)
-- Jupyter Notebook
-- Dataset: [Apache Jira Issues on Kaggle](https://www.kaggle.com/datasets)
+- Some team members handled 10x more issues than others.
+- High-priority issues sometimes took longer than medium ones.
+- Sprint velocity dropped sharply during holiday months.
 
 ## 📊 Key Visuals
 
@@ -26,6 +21,18 @@ Analyzed Jira issue data from open-source Apache projects to evaluate:
 
 ### 🔹 Sprint Velocity – Issues Resolved per Month
 ![Sprint Velocity](sprint_velocity.png)
+
+### 🔹 Avg. Resolution Time by Issue Type
+![Issue Type](issue_type_resolution.png)
+
+### 🔹 Avg. Resolution Time by Priority
+![Priority](priority_resolution.png)
+
+## Tech Stack
+- Python (Pandas, Matplotlib, Seaborn)
+- Jupyter Notebook
+- Dataset: [Apache Jira Issues on Kaggle](https://www.kaggle.com/datasets)
+
 
 ### 🔹 Avg. Resolution Time by Issue Type
 ![Issue Type](issue_type_resolution.png)
